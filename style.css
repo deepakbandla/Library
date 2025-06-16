@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE3CA;
+}
+
+.header *{
+    padding: 1.5rem;
+    font-size: 3rem;
+    align-self: center;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    background-color: #F6F5F2;
+    padding-top: ;
+    /* gap: 2rem; */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
