@@ -21,6 +21,7 @@ body {
     align-self: center;
 }
 
+
 .add {
     display: flex;
     flex-direction: column;
@@ -93,5 +94,10 @@ button{
     font-size: 1rem;
     color: white;
     border-radius: 0.3rem;
+}
+
+.b_display{
+    display: flex;
+
 }
 
