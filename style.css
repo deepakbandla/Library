@@ -21,6 +21,12 @@ body {
     align-self: center;
 }
 
+.second{
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 0;
+    width: 100vw;
+}
 
 .add {
     display: flex;
@@ -29,8 +35,10 @@ body {
     justify-content: center;
     width: 40vw;
     background-color: #F6F5F2;
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
     min-height: 0;
+    min-width: 30vw;
+    
 }
 
 form{
@@ -98,6 +106,17 @@ button{
 
 .b_display{
     display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 2rem;
+    padding: 2rem;
+}
 
+.card{
+    background-color: #E3FDFD;
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+    min-width: fit-content;
+    height: fit-content;
 }
 
